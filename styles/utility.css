@@ -4,6 +4,18 @@
     margin-inline: auto;
 }
 
+.py-xl{
+    margin-top: var(--py-xl);
+}
+
+.py-lg{
+    margin-top: var(--py-lg);
+}
+
+.py-base{
+    margin-top: var(--py-base);
+}
+
 .desktop-only{
     display: none;
 }
@@ -20,12 +32,18 @@
     gap: 1rem;
 }
 
-h1,h2,h3{
+.gap-sm{
+    gap: .5rem;
+}
+
+h1,h2{
     font-weight: var(--fw-bold);
 }
 
 h1{
+    line-height: normal;
     font-size: var(--fs-2xl);
+    letter-spacing: .25rem;
 }
 
 h2{
@@ -34,6 +52,8 @@ h2{
 
 h3{
     font-size: var(--fs-lg);
+    letter-spacing: .5rem;
+    font-weight: 300;
 }
 
 p{
@@ -55,6 +75,24 @@ span{
 }
 
 i{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--text-primary);
+}
+
+@media(width >= 1280px){
+     .container{
+        --max-width: 1280px;
+        width: min(var(--max-width),100% - var(--px-lg)*2);
+        margin-inline: auto;
+    }
+
+     .desktop-only{
+        display: initial;
+    }
+
+    h3{
+        font-size: var(--fs-lg);
+        letter-spacing: 1rem;
+        font-weight: 300;
+    }
 }

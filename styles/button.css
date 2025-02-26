@@ -19,3 +19,9 @@
     border: 1.5px solid var(--white);
     color: var(--dark);
 }
+
+@media (width >= 1280px){
+    .btn{
+        width: 10rem;
+    }
+}
