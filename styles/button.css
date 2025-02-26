@@ -1,0 +1,21 @@
+.btn{
+    background-color: transparent;
+    border-radius: 1.5rem;
+    border: 1.5px solid var(--white);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-base);
+
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1rem;
+
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--white);
+    border: 1.5px solid var(--white);
+    color: var(--dark);
+}
