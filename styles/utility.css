@@ -16,6 +16,10 @@
     margin-top: var(--py-base);
 }
 
+.py-sm{
+    margin-top: var(--py-sm);
+}
+
 .desktop-only{
     display: none;
 }
@@ -56,6 +60,16 @@ h3{
     font-weight: 300;
 }
 
+.h3{
+    font-size: var(--fs-lg);
+    font-weight: 600;
+}
+
+.old{
+    font-size: var(--fs-base);
+    font-weight: var(--fw-base);
+}
+
 p{
     font-size: var(--fs-base);
     font-weight: var(--fw-base);
@@ -64,6 +78,7 @@ p{
 span{
     font-size: var(--fs-sm);
     font-weight: var(--fw-base);
+    display: inline-block;
 }
 
 .value{
@@ -77,6 +92,10 @@ span{
 i{
     font-size: 1.25rem;
     color: var(--text-primary);
+}
+
+.pdd-section{
+    padding: var(--py-xl) 0 ;
 }
 
 @media(width >= 1280px){

@@ -10,7 +10,7 @@
     <title>Pizzaiolo</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body class="container">
+<body>
     <main>
 
         <header>
@@ -19,9 +19,9 @@
             <div class="red"></div>
         </header>
 
-        <section class="header column">
-            <img id="logo" class="py-xl" src="./assets/images/logo.png" alt="logo da pizzaria">
-            <div class="py-lg">
+        <section class="header column pdd-section container">
+            <img id="logo"src="./assets/images/logo.png" alt="logo da pizzaria">
+            <div class="py-xl">
                 <h1>THE PIZZA MENU</h1>
                 <h3 class="py-base">ITALIAN PIZZA ART</h3>
             </div>
@@ -33,6 +33,124 @@
                 </div>
             </div>
             <button class="btn py-lg">FAZER PEDIDO</button>
+        </section>
+
+        <section id="promo">
+            <div class="modal"></div>
+
+            <div class="promo-day container">
+                <h2>PROMOÇÃO DO DIA</h2>
+                <span class="py-base h3">Margherita</span>
+                <p class="">Molho especial de tomate, mozarela, tomate e manjericão fresco.</p>
+                <span class="py-base h3"><s>R$ 85,00</s></span>
+                <h2 class="value py-base">R$ 65,90</h2>
+                <button class="btn py-lg">EU QUERO!</button>
+            </div>
+
+        </section>
+
+        <section class="container pdd-section">
+            <h2>MENU</h2>
+            <span class="py-base h3">Conheça nossas Delicosas Pizzas</span>
+
+            <div id="menu" class="menu">
+    
+                <div class="box-menu">
+                    <img src="./assets/images/mussarela.jpg" alt="pizza de mozarela">
+                    <span class="py-base h3">MOZARELA</span>
+                    <p class="py-base">Molho especial de tomate , tomate cereja e mozarela.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$83,00</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$74,70</span>&nbsp;
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/PIZZA-DE-CALABRESA.webp" alt="pizza de calabreza">
+                    <span class="py-base h3">CALABRESA</span>
+                    <p class="py-base">Molho especial de tomate, calabresa fatiada e cebola.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$67,90</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$61,10</span>&nbsp;
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/frangocatu.jpeg" alt="pizza de frango com catupiry">
+                    <span class="py-base h3">FRANGO-CATU</span>
+                    <p class="py-base">Molho especial de tomate, frango temperado e desfiado e catupiry original.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$89,00</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$80,10</span>&nbsp;
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/pizza-a-portuguesa-1.jpeg" alt="pizza de Portuguesa">
+                    <span class="py-base h3">PORTUGUESA</span>
+                    <p class="py-base">Molho especial de tomate, mozarela, presunto, ovos, ervilha e  cebola.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$87,00</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$78,30</span>&nbsp;
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/PARMA.avif" alt="pizza de calabreza">
+                    <span class="py-base h3">PARMA</span>
+                    <p class="py-base">Molho especial de tomate, muzzarela de búfala, cogumelos e presunto parma.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$99,00</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$89,10</span>
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/pepperoni-0.webp" alt="pizza de pepperoni">
+                    <span class="py-base h3">PEPPERONI</span>
+                    <p class="py-base">Molho especial de tomate, mozarela e salame pepperoni.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$87,00</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$78,30</span>
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/lombo1.jpg" alt="pizza de lombo">
+                    <span class="py-base h3">LOMBO</span>
+                    <p class="py-base">Molho especial de tomate, lombinho, bacon e mussarela.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$90,00</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$81,00</span>
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+
+                <div class="box-menu">
+                    <img src="./assets/images/fiorentina.jpg" alt="pizza de fiorentina">
+                    <span class="py-base h3">FIORENTINA</span>
+                    <p class="py-base">Molho especial de tomate, espinafre, bacon, ricota, especiarias e  parmesão.</p>
+                    <div class="flex py-sm">
+                        <span class="old"><s>R$67,90</s></span>&nbsp;
+                        <span class="old discount">-10%</span>
+                    </div>
+                    <span class="h3 py-sm value">R$61,10</span>
+                    <button class="btn-lg py-base">EU QUERO</button>
+                </div>
+            </div>
         </section>
     </main>
 </body>

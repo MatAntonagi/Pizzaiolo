@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -34,9 +33,11 @@
 
     --px-lg: 1.5rem;
 
+    --py-sm:.5rem;
     --py-base: 1rem;
     --py-lg: 1.5rem;
     --py-xl: 3rem;
+
 }
 
 @media(width >= 1280px){
@@ -45,6 +46,7 @@
         --fs-xl: 3rem;
         --fs-2xl: 6rem;
 
+        --py-base: 1rem;
         --py-base: 1.5rem;
         --py-lg: 2.5rem;
         --py-xl: 3rem;

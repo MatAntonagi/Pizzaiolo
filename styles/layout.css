@@ -51,6 +51,26 @@ header{
 
  }
 
+ #promo{
+   background-image: url(../assets/images/bg-pizza.PNG);
+   background-position: 90% 50%;
+   background-size: cover;
+   position: relative;
+ }
+
+ .promo-day{
+   padding: 5rem 0;
+   position: relative;
+ }
+
+ .modal{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.5);
+   position: absolute;
+ }
+
+
  @media(width >=1280px){
    #logo{
       width: 15%;

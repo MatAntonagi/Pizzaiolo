@@ -20,6 +20,22 @@
     color: var(--dark);
 }
 
+.btn-lg{
+    background-color: transparent;
+    border-radius: 1.5rem;
+    border: 1.5px solid var(--white);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-base);
+
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1rem;
+
+    cursor: pointer;
+}
+
 @media (width >= 1280px){
     .btn{
         width: 10rem;
