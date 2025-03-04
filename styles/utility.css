@@ -28,8 +28,18 @@
     display: flex;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .grid{
     display: grid;
+}
+
+.gap-xl{
+    gap: 3rem;
 }
 
 .gap-1{
@@ -81,6 +91,15 @@ span{
     display: inline-block;
 }
 
+strong{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+strong:hover{
+    color: var(--red);
+}
+
 .value{
     color: var(--green);
 }
@@ -96,6 +115,24 @@ i{
 
 .pdd-section{
     padding: var(--py-xl) 0 ;
+}
+
+@media(width >= 768px){
+    .container{
+       --max-width: 768px;
+       width: min(var(--max-width),100% - var(--px-lg)*2);
+       margin-inline: auto;
+   }
+
+    .desktop-only{
+       display: initial;
+   }
+
+   h3{
+       font-size: var(--fs-lg);
+       letter-spacing: 1rem;
+       font-weight: 300;
+   }
 }
 
 @media(width >= 1280px){

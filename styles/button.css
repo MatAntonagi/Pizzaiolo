@@ -36,6 +36,12 @@
     cursor: pointer;
 }
 
+@media (width >= 768px){
+    .btn{
+        width: 10rem;
+    }
+}
+
 @media (width >= 1280px){
     .btn{
         width: 10rem;

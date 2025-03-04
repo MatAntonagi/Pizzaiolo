@@ -70,6 +70,19 @@ header{
    position: absolute;
  }
 
+ #social-media{
+   gap: .5rem;
+   
+   & i{
+      font-size: 2rem;
+      cursor: pointer;
+      color: var(--blue);
+   }
+
+   & i:hover{
+      color: var(--red);
+   }
+ }
 
  @media(width >=1280px){
    #logo{
