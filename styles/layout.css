@@ -70,6 +70,10 @@ header{
    position: absolute;
  }
 
+ .social-footer{
+   justify-content: space-between;
+ }
+
  #social-media{
    gap: .5rem;
    
